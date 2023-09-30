@@ -1,0 +1,121 @@
+.clearfix{
+	display:flex;
+}
+.flex1{
+	flex:1;
+}
+.flex2{
+	flex:2;
+}
+.bgimg{
+	background-image:url("file:///D:/itisha/img/de2.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	margin:0;
+	padding:0;
+	height:1200px;
+}
+.space{
+	padding-top:30px;
+	margin-top:30px;
+
+}
+
+.menu{
+	list-style:none;
+	text-align:left-side;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.menu li{
+	display:inline;
+}
+.menu li a{
+	text-decoration:none;
+	color:#fff;
+	padding:15px 26px;
+	display:inline-block;
+	
+}
+.menu li a:hover{
+	color:red;
+	
+}
+	
+.btn{
+	padding:15px 25px;
+	border-radius:100px;
+	border-color:#000;
+	color:#000;
+
+}
+.block{
+	display:inline;
+	padding-left:50px;
+}
+.text{
+	color:#green;
+}
+.pi{
+	padding-left:50px;
+
+}
+.center{
+	text-align:center;
+}
+.relative{
+	position:relative;
+}
+.absolute{
+	position:absolute;
+	width:1200px;
+	color:#000;
+	top:100%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+}
+.pl{
+	padding-top:200px;
+	padding-left:400px;
+}
+.btns{
+	background-color:blue;
+	padding:20px 55px;
+	border-radius:100px;
+	border-color:#000;
+	color:#fff;
+	font-size:15px;
+	
+
+}
+.box1{
+	padding-left:70px;
+	padding-right:70px;
+	background-color:#79F6FC;
+	border-color:white;
+	border:1px solid ;
+}
+.box2{
+	padding-left:70px;
+	padding-right:70px;
+	background-color:#42E0D1;
+	border-color:white;
+	border:1px solid ;
+}
+.box3{
+	padding-left:70px;
+	padding-right:150px;
+	background-color:#01FFFF;
+	border-color:white;
+	border:1px solid ;
+}
+.sticky{
+	top:0;
+	position:sticky;
+	z-index:99;
+
+	
+}
